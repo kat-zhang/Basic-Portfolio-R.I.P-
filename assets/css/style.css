@@ -137,14 +137,15 @@ p {
     padding: 12px 24px;
     border: none;
     cursor: pointer;
+    transition-duration: .4s;
     text-align: center;
 }
 
-.card.cbtn:hover {
+.card .cbtn:hover {
     background-color: white;
     color: #4aaaa5;
 }
-.card.cbtn:active {
+.card .cbtn:active {
     background-color: #4aaaa5;
     color: white;
 }
