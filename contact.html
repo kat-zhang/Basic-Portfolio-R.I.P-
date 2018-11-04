@@ -27,29 +27,44 @@
         </div>
     </div>
 
-<div class="content">
-<h1> Contact </h1>
-<hr>
+    <div class="content">
+        <h1> Contact </h1>
+        <hr>
+    
+        <div class="messagebox">
+            <form action="/action_page.php">
+                <style> 
+                    form { 
+                        text-align: left;
+                    }
+                    input { 
+                        text-align: left;
+                    }
+                    .placeholder {
+                         text-align: left;
+                    }
+                    textarea {
+                        text-align: left;
+                    }
+                         </style>
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="John Smith">
+          
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="example123@gmail.com">
+          
+          
+              <label for="message">Message</label>
+              <textarea id="message" name="message" style="height:200px"></textarea>
+          
+              <input type="button" value="Send Message">
+              
+            </form>
+          </div>
 
-<p>
-<div class="msgs">
-<form action="/action_page.php">
-    <label for="name">Name</label>
-        <input type="text" id="name" name="name" placeholder ="Spongebob Squarepants">
-    <label for="Email">Email</label>
-        <input type="text" id="email" name="email" placeholder ="example@gmail.com">
-
-    <label for="Message">Message</label>
-    <textarea id="message" name="message"></textarea>
-        <input type="button" value="Send Message">
-</form>
-</div>
-</p>
+    </div>
 
 
-
-
-</div>
-<div id="stickyfooter"></div>
+<div id="stickyfooter"></div> 
 </body>
 </html>

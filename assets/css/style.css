@@ -34,9 +34,12 @@ body {
     border-color: #4aaaa6;
     border-style: none;
     color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: 36px bold;
     width:250px;
     height:88px;
     margin-bottom: 8px;
+    padding: 5px;
     transition-duration:.2s;
     cursor: pointer;
 }
@@ -45,6 +48,7 @@ body {
     margin-bottom:20px;
     width:100px;
     height:50px;
+    color: #777777;
     background-color:white;
     border-color: #cccccc;
     border-style: none;
@@ -85,10 +89,10 @@ h1 {
     height: 100%;
     margin-top: 150px;
     margin-right: auto;
-    margin-bottom: 150px;
+    margin-bottom: 200px;
     margin-left: auto;
     background-color: #ffffff;
-    border: solid 1px #cccccc;
+    border: solid 1px #dddddd;
 }
 
 p {
@@ -99,14 +103,11 @@ p {
     color: #777777;
     font-family: Arial, Helvetica, 'Helvetica Neue', sans-serif;
     font-size: 18px;
-
 }
-.msgs{}
 
 .col{
     float: left;
-    padding: 5px;
-   
+    padding: 5px; 
 }
 
 .row::after {
@@ -132,7 +133,7 @@ p {
     background-color: #4aaaa5;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 16px;
+    font: 24px bolder bolder;
     padding: 12px 24px;
     border: none;
     cursor: pointer;
@@ -148,6 +149,39 @@ p {
     color: white;
 }
 
+.messagebox {
+	font-family: Arial, 'Helvetica Neue', Helvetica, 'sans-serif';
+    background-color: white;
+    padding: 20px;
+    color: #777777;
+    text-align: center;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: #777777;
+}
+
+input[type=button] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    transition-duration: .4s;
+    cursor: pointer;
+}
+
+input[type=button]:hover {
+    background-color: white;
+    color: #4aaaa5;
+}
 
 #stickyfooter {
     position: sticky;
@@ -157,6 +191,7 @@ p {
     padding: 10px;
     font-size: 18px;
     border-top:8px solid #4aaaa6;
+    border-bottom: 8px solid #666666;
     background-color: #666666;
 } 
 
