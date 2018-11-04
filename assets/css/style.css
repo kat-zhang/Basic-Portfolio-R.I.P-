@@ -129,7 +129,7 @@ p {
 .card .cbtn {
     position: relative;
    	bottom: 60px;
-   	width: inherit;
+   	width: 300px;
     background-color: #4aaaa5;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
